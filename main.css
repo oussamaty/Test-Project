@@ -6,6 +6,6 @@
    left: 50%;
    bottom: 50%;
    right: 50%;
-   color: lightseagreen;
-   -webkit-text-stroke-color: maroon;
+   color: goldenrod;
+   background-color: cyan;
 }
