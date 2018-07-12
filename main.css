@@ -1,4 +1,11 @@
 .BUTTON {
    width: 80px;
    height: 45px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   bottom: 50%;
+   right: 50%;
+   color: lightseagreen;
+   -webkit-text-stroke-color: maroon;
 }
