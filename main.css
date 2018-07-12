@@ -4,9 +4,16 @@
    position: absolute;
    top: 75%;
    left: 50%;
+   margin: -22.5px 0 0 -40px;
 }
-.TEXTWINDOW {
+.TEXT {
+    text-align: center;
+}
+.WINDOW {
     position: absolute;
+    width: 309px;
+    height: 69px;
     top: 50%;
-    text-align: center
+    left: 50%;
+    margin: -34.5px 0 0 -154.5px;
 }
