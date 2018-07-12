@@ -1,3 +1,4 @@
 console.log("Hello World!");
-var button = document.getElementById("BUTTON");
-console.log(button.addEventListener("click",(button,MouseEvent)));
+document.getElementById("BUTTON").addEventListener("click",function() {
+    document.getElementById("TESTWINDOW").innerHTML = "I am Oussama";
+});
