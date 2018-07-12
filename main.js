@@ -1,3 +1,3 @@
 console.log("Hello World!");
-var button = document.getElementById("BUTTON");
+var button = document.querySelector("BUTTON");
 console.log(button);
