@@ -1,7 +1,7 @@
 function pad(num,size) {
-    var s = "";
+    var s = num + "";
     while(s.length < size){
-        s += "0" + num;
+        s += "0" + s;
     }
     return s;
 }
