@@ -26,3 +26,9 @@ function telephoneCheck(str) {
   }
   return false;
 }
+
+// Or you can try this one line it does the same functionality:
+
+function telephoneCheck(str) {
+  return /^(1\s|1)?(\(\d{3}\)|\d{3})(-|\s)?\d{3}(-|\s)?\d{4}$/.test(str);
+}
